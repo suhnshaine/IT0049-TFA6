@@ -28,7 +28,7 @@
                 <th>Role</th>
             </tr>
 
-            @foreach($customers as $customer)
+            @foreach($users as $user)
             <tr>
                 <td><?= ($user['username']) ?></td>
                 <td><?= ($user['fullname']) ?></td>
